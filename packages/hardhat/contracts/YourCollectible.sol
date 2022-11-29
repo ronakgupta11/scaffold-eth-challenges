@@ -7,6 +7,8 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
+
+//  deployed at 0xdEDA6df57C7014c1109e043E7CDfBA5CB4dda697
 contract YourCollectible is
     ERC721,
     ERC721Enumerable,

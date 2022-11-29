@@ -21,11 +21,11 @@ const ipfs = ipfsAPI({
   protocol: "https",
 });
 
-const delayMS = 1000; // sometimes xDAI needs a 6000ms break lol 😅
+const delayMS = 6000; // sometimes xDAI needs a 6000ms break lol 😅
 
 const main = async () => {
   // ADDRESS TO MINT TO:
-  const toAddress = "YOUR_FRONTEND_ADDRESS";
+  const toAddress = "0xdC5ea82e9BE9B1cAf0BC60AaAA540dad055831ce";
 
   console.log("\n\n 🎫 Minting to " + toAddress + "...\n");
 

@@ -62,7 +62,7 @@ const { ethers } = require("ethers");
 */
 
 /// 📡 What chain are your contracts deployed to?
-const targetNetwork = NETWORKS.localhost; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
+const targetNetwork = NETWORKS.goerli; // <------- select your target frontend network (localhost, rinkeby, xdai, mainnet)
 
 // 😬 Sorry for all the console logging
 const DEBUG = true;
@@ -645,7 +645,7 @@ function App() {
   const mintItem = async () => {
     // upload to ipfs
     const uploaded = await ipfs.add(JSON.stringify(json[count]));
-    setCount(count + 1);
+    setCount(count => count + 1);
     console.log("Uploaded Hash: ", uploaded);
     const result = tx(
       writeContracts &&
