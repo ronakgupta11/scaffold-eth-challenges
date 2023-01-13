@@ -41,6 +41,6 @@
     "send": "hardhat send",
     "generate": "hardhat generate",
     "account": "hardhat account",
-    "verify": "hardhat etherscan-verify --api-key MQTI17UAF8U77DIRB2Z22QH2SVZ2PX9GDX"
+    "verify": "hardhat etherscan-verify --api-key MQTI17UAF8U77DIRB2Z22QH2SVZ2PX9GDX "
   }
 }
